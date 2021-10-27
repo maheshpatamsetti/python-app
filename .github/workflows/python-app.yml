@@ -19,4 +19,4 @@ jobs:
         pip install -r requirements.txt; 
     - name: Test with unittest
       run: |
-        FLASK_APP=web1.py
+        python=web.py
